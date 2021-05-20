@@ -5,5 +5,12 @@
   "main": "index.js",
   "repository": "https://github.com/Dan-Doit/typeScript",
   "author": "Dan <spqjeks@naver.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "yarn tsc"
+  },
+  "dependencies": {
+    "typescript": "^4.2.4"
+  }
 }
