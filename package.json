@@ -1,0 +1,9 @@
+{
+  "name": "typeScript",
+  "version": "1.0.0",
+  "description": "blockchain with tsc",
+  "main": "index.js",
+  "repository": "https://github.com/Dan-Doit/typeScript",
+  "author": "Dan <spqjeks@naver.com>",
+  "license": "MIT"
+}
