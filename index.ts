@@ -1,11 +1,9 @@
-const a = (props) => {
-    console.log(props)
+const a = () => {
+    return {a:1,b:2}
 }
 
-export const p = () => {
-    return {
-        d : 1
-    }
+const b = () => {
+    const c = a();
+    console.log(c)
 }
 
-export default a

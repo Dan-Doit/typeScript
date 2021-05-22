@@ -1,14 +1,8 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.p = void 0;
-const a = (props) => {
-    console.log(props);
+const a = () => {
+    return { a: 1, b: 2 };
 };
-const p = () => {
-    return {
-        d: 1
-    };
+const b = () => {
+    const c = a();
+    console.log(c);
 };
-exports.p = p;
-exports.default = a;
 //# sourceMappingURL=index.js.map
