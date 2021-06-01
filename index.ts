@@ -1,9 +1,11 @@
-const a = () => {
-    return {a:1,b:2}
+const name = "dan",
+    age = 24,
+    gender = "male";
+
+const sayHi = (name, age, gender?) => {
+    console.log(`Hello ${name}, your ${age} and ${gender}`)
 }
 
-const b = () => {
-    const c = a();
-    console.log(c)
-}
+sayHi(name, age);
 
+export { }

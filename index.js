@@ -1,8 +1,8 @@
-const a = () => {
-    return { a: 1, b: 2 };
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const name = "dan", age = 24, gender = "male";
+const sayHi = (name, age, gender) => {
+    console.log(`Hello ${name}, your ${age} and ${gender}`);
 };
-const b = () => {
-    const c = a();
-    console.log(c);
-};
+sayHi(name, age, gender);
 //# sourceMappingURL=index.js.map
