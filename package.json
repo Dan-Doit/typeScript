@@ -7,10 +7,12 @@
   "author": "Dan <spqjeks@naver.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js",
-    "prestart": "yarn tsc"
+    "start": "tsc-watch --onSuccess \"node dist/index.js\""
   },
   "dependencies": {
     "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.4.0"
   }
 }
